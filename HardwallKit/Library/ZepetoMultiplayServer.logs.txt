@@ -1,0 +1,28 @@
+ZEPETO Multiplay Bootstrap
+===================================================
+
+███████╗███████╗██████╗ ███████╗████████╗ ██████╗ 
+╚══███╔╝██╔════╝██╔══██╗██╔════╝╚══██╔══╝██╔═══██╗
+  ███╔╝ █████╗  ██████╔╝█████╗     ██║   ██║   ██║
+ ███╔╝  ██╔══╝  ██╔═══╝ ██╔══╝     ██║   ██║   ██║
+███████╗███████╗██║     ███████╗   ██║   ╚██████╔╝
+╚══════╝╚══════╝╚═╝     ╚══════╝   ╚═╝    ╚═════╝ 
+
+===================================================
+sandboxWorldId : 'com.ZEPETO.me.zepeto.template.default'
+sandboxWorldVersion : '0.1'
+sandboxMaxClients : 8
+sandboxPackageVersion : '1.1.9'
+gatewayPort : 56796
+host : '192.168.56.1'
+===================================================
+Source File :  C:\Users\hschl\Desktop\whsBasicZepetoFramework\HardwallKit\Assets\World.multiplay\index.ts
+[info] 2023-04-07T07:22:54.251Z gameserver 192.168.56.1:0 listen
+[info] 2023-04-07T07:23:00.711Z gameserver multiplay room application created.
+join player, USER_n9Ecam-m-aV
+[info] 2023-04-07T07:23:00.745Z gameserver session [USER_n9Ecam-m-aV] in room [ROOM_sSzCmyGdd] joined.
+master->, USER_n9Ecam-m-aV
+leave player, USER_n9Ecam-m-aV
+master->, undefined
+[info] 2023-04-07T07:23:05.667Z gameserver session [USER_n9Ecam-m-aV] in room [ROOM_sSzCmyGdd] leaved.
+no activity in the process and it terminate

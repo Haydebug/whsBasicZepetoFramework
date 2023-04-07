@@ -1,0 +1,23 @@
+{
+	"name": "zepeto.character.controller",
+	"scope": "zepeto",
+	"version": "1.3.0",
+	"displayName": "ZEPETO.Character.Controller",
+	"description": "Controller for ZEPETO Character!",
+	"unity": "2020.3",
+	"keywords": [
+		"zepeto",
+		"character"
+	],
+	"category": "Unity",
+	"hideInEditor": false,
+	"dependencies": {
+		"com.unity.inputsystem": "1.0.2"
+	},
+	"author": {
+		"name": "ZEPETO",
+		"email": "support@zepeto.me",
+		"url": "https://zepeto.me/"
+	},
+	"commitId": "7ce2548de2f889a3a9ed6f0535f704c05a46f6f9"
+}

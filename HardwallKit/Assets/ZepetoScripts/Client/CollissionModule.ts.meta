@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: a87f3bf9f71a3414f9a222cdd8e15c2a
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst UnityEngine_1 = require(\"UnityEngine\");\r\nconst
+    ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst ClientStarter_1 = require(\"./ClientStarter\");\r\nclass
+    CollissionModule extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    *checkIfObject(obj)
+    {\r\n        if (obj.tag == ''Lava'') {\r\n            ClientStarter_1.default.instance.respawnCharacter();\r\n       
+    }\r\n    }\r\n    OnTriggerEnter(coll) {\r\n        this.StartCoroutine(this.checkIfObject(coll.gameObject));\r\n   
+    }\r\n}\r\nexports.default = CollissionModule;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ29sbGlzc2lvbk1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkNvbGxpc3Npb25Nb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBb047QUFDcE4saURBQXFEO0FBQ3JELG1EQUFzQztBQUV0QyxNQUFxQixnQkFBaUIsU0FBUSxxQ0FBcUI7SUFDdkQsQ0FBRSxhQUFhLENBQUMsR0FBZ0I7UUFDcEMsSUFBSSxHQUFHLENBQUMsR0FBRyxJQUFJLE1BQU0sRUFBRTtZQUNuQix1QkFBTyxDQUFDLFFBQVEsQ0FBQyxnQkFBZ0IsRUFBRSxDQUFDO1NBQ3ZDO0lBQ0wsQ0FBQztJQUVELGNBQWMsQ0FBQyxJQUFjO1FBQ3pCLElBQUksQ0FBQyxjQUFjLENBQUMsSUFBSSxDQUFDLGFBQWEsQ0FBQyxJQUFJLENBQUMsVUFBVSxDQUFDLENBQUMsQ0FBQztJQUM3RCxDQUFDO0NBQ0o7QUFWRCxtQ0FVQyJ9","assetPath":"Assets/ZepetoScripts/Client/CollissionModule.ts","manifest":{"properties":[],"name":"CollissionModule","description":""},"isCompiled":true}'
+  typescriptHash: f0e2116ba1973dc31fec5bd64bea99fe
+  onlyWriteTrigger: 0
